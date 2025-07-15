@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reginald | WDD 130</title>
+    <style>
+        /* General Body Styles */
+        body {
+            font-family: Arial, sans-serif; /* Fallback for 'Inter' */
+            background-color: #f3f4f6; /* Equivalent to bg-gray-100 */
+            color: #374151; /* Equivalent to text-gray-800 */
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #2563eb; /* Equivalent to bg-blue-600 */
+            color: white;
+            padding: 1rem; /* Equivalent to p-4 */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Equivalent to shadow-md */
+        }
+
+        nav {
+            max-width: 1200px; /* Equivalent to container mx-auto */
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            justify-content: space-between; /* Equivalent to justify-between */
+            align-items: center; /* Equivalent to items-center */
+        }
+
+        nav a.portfolio-title {
+            font-size: 1.5rem; /* Equivalent to text-2xl */
+            font-weight: bold; /* Equivalent to font-bold */
+            border-radius: 0.5rem; /* Equivalent to rounded-lg */
+            padding: 0.5rem 0.75rem; /* Equivalent to px-3 py-2 */
+            color: white;
+            text-decoration: none;
+            transition: background-color 0.2s ease-in-out; /* Equivalent to transition-colors duration-200 */
+        }
+
+        nav a.portfolio-title:hover {
+            background-color: #1d4ed8; /* Equivalent to hover:bg-blue-700 */
+        }
+
+        nav div.nav-links {
+            display: flex;
+            gap: 1rem; /* Equivalent to space-x-4 */
+        }
+
+        nav div.nav-links a {
+            color: white;
+            text-decoration: none;
+            border-radius: 0.5rem; /* Equivalent to rounded-lg */
+            padding: 0.5rem 0.75rem; /* Equivalent to px-3 py-2 */
+            transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out; /* Equivalent to transition-colors duration-200 */
+        }
+
+        nav div.nav-links a:hover {
+            background-color: #1d4ed8; /* Equivalent to hover:bg-blue-700 */
+            color: #bfdbfe; /* Equivalent to hover:text-blue-200 */
+        }
+
+        /* Main Content Styles */
+        main {
+            max-width: 1200px; /* Equivalent to container mx-auto */
+            margin-left: auto;
+            margin-right: auto;
+            flex-grow: 1; /* Equivalent to flex-grow */
+            padding: 2rem; /* Equivalent to p-8 */
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Equivalent to items-center */
+            justify-content: center; /* Equivalent to justify-center */
+        }
+
+        h1 {
+            font-size: 2.25rem; /* Equivalent to text-4xl */
+            font-weight: 800; /* Equivalent to font-extrabold */
+            color: #1d4ed8; /* Equivalent to text-blue-700 */
+            margin-bottom: 1.5rem; /* Equivalent to mb-6 */
+            text-align: center; /* Equivalent to text-center */
+        }
+
+        img {
+            border-radius: 9999px; /* Equivalent to rounded-full */
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* Equivalent to shadow-lg */
+            margin-bottom: 2rem; /* Equivalent to mb-8 */
+            border: 4px solid #60a5fa; /* Equivalent to border-4 border-blue-400 */
+            object-fit: cover; /* Ensures image covers the area, useful for aspect ratio */
+        }
+
+        p {
+            font-size: 1.125rem; /* Equivalent to text-lg */
+            line-height: 1.625; /* Equivalent to leading-relaxed */
+            text-align: center; /* Equivalent to text-center */
+            max-width: 42rem; /* Equivalent to max-w-2xl */
+            background-color: white;
+            padding: 1.5rem; /* Equivalent to p-6 */
+            border-radius: 0.5rem; /* Equivalent to rounded-lg */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Equivalent to shadow-md */
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #2563eb; /* Equivalent to bg-blue-600 */
+            color: white;
+            padding: 1rem; /* Equivalent to p-4 */
+            margin-top: 2rem; /* Equivalent to mt-8 */
+            box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1); /* Similar to shadow-md but for footer */
+        }
+
+        footer p {
+            text-align: center; /* Equivalent to text-center */
+            font-size: 0.875rem; /* Equivalent to text-sm */
+            margin: 0; /* Remove default paragraph margin */
+            background-color: transparent; /* Override main p style */
+            box-shadow: none; /* Override main p style */
+            padding: 0; /* Override main p style */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#" class="portfolio-title">My Portfolio</a>
+            <div class="nav-links">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+                <a href="rafting-website.html">Rafting Website</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Reginald | WDD 130</h1>
+        <img
+            src="C:\Users\Reginald Magwiroto\Documents\wdd130\WhatsApp Image 2025-07-09 at 08.41.04_67b849d1.jpg"
+            alt="Reginald Magwiroto profile picture"
+            width="200"
+            height="200" /* Added height for better circular image */
+        >
+        <p>
+            Hello! My name is Reginald Magwiroto, and I am currently a student delving into the exciting world of web development. I am passionate about creating clean, functional, and user-friendly websites. In my free time, I enjoy watching car reviews, reading sci-fi novels, and experimenting with cars in the garage. I'm eager to learn and grow in this field and contribute to innovative projects.
+        </p>
+    </main>
+
+    <footer>
+        <p>
+            &copy; 2025 | Reginald | Zimbabwe
+        </p>
+    </footer>
+</body>
+</html>
